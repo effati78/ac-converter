@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <title>جایگذاری متن در Adobe Connect</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+    <link href="./css/main.min.css" rel="stylesheet" />
+</head>
+
+<body class="container position-relative">
+    <main class="row align-items-center justify-content-center">
+        <form class="col-12 col-lg-6 mt-4">
+            <div class="form-group">
+                <label for="textarea" class="text-center d-block lh-lg mb-3">متن خود را تایپ یا جایگذاری کنید و به راحتی
+                    در <span class="text-nowrap text-capitalize">adobe connect</span> پیست کنید.</label>
+                <textarea class="form-control" placeholder="اینجا بنویس ..." autofocus id="textarea"
+                    rows="3"></textarea>
+            </div>
+
+            <div class="w-100 row mx-0 btns">
+                <button class="col-12 col-md-9 copy-btn text-center btn btn-success">ثبت اطلاعات</button>
+                <div class="col-12 col-md-3 pl-0">
+                    <button type="reset" class="w-100 text-center btn btn-outline-danger">پاک کردن</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer class="position-absolute">
+        <a href="#">گیت هاب</a>
+        <button type="button" data-toggle="modal" data-target="#myModal">اطلاعات بیشتر</button>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalTitle">توضیحات</h5>
+                    <button type="button" class="close m-0 p-0" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="lh-lg">
+                        این روزا با وجود کرونا، اگر دانشجو باشید حتما دارید با نرم‌افزار adobe connect دوران تحصیلی
+                        خودتون رو سپری می‌کنید.
+                        یکی از مشکلات این نرم‌افزار عدم پشتیبانی از زبان فارسیه. به گونه ای که شما توی چت با استاد یا
+                        سایر اعضا به جای حرف "ی" باید از "ي" استفاده کنید و این یکم تو چت کردن رو مخه 😬
+                        <br />
+                        یا زمانی که استاد سوالی میپرسه و تو بلافاصله تو گوگل سرچ میکنی و جواب رو کپی و در چت پیست میکنی،
+                        میبینی که همه چی بهم‌ریخته شده 😫
+                        <br />
+                        خب فقط کافیه متنی که میخوای بنویسی رو اینجا تایپ کنی یا جوابی که کپی کردی رو اینجا وارد کنی و
+                        بعد خروجی که برنامه میده رو توی چت کلاس پیست کنی 🤤
+                        <br />
+                        <br />
+                        به همین راحتی!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">بستن</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

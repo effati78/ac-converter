@@ -1,0 +1,107 @@
+@import 'reset';
+@font-face {
+  font-family: 'iranYekanWeb';
+  src: url('../font/IranYekanWebFonts/ttf/iranyekanweblight.ttf') format('ttf'),
+    url('../font/IranYekanWebFonts/woff/iranyekanweblight.woff') format('woff'),
+    url('../font/IranYekanWebFonts/eot/iranyekanweblight.eot') format('eot');
+}
+
+* {
+  font-family: 'iranYekanWeb' !important;
+  text-align: right !important;
+}
+
+body {
+  min-height: 100vh;
+}
+
+body,
+.modal-content {
+  background-color: #111827;
+  color: rgba(156, 163, 175, 1);
+}
+
+label {
+  color: rgba(156, 163, 175, 1);
+}
+
+.modal-header,
+.modal-footer {
+  border-color: rgba(31, 41, 55, 1);
+}
+
+.close span {
+  color: rgba(156, 163, 175, 1);
+  text-shadow: unset;
+  box-shadow: unset;
+
+  &:hover {
+    color: #e74c3c;
+  }
+}
+
+textarea {
+  min-height: 250px;
+  background-color: rgba(71, 85, 105, 1) !important;
+  border-color: rgba(31, 41, 55, 1) !important;
+  color: #fff !important;
+  resize: none;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.322) !important;
+  }
+}
+
+.lh-lg {
+  line-height: 25px;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 5px 10px 5px;
+  background: linear-gradient(to top, #111827, transparent);
+
+  a,
+  button {
+    font-size: 0.9rem;
+    position: relative;
+    background: transparent;
+    margin: 3px 15px;
+    padding: 0 10px 0 0;
+    border: 0;
+    color: rgba(156, 163, 175, 1);
+    cursor: pointer;
+    transition: all 0.6s;
+
+    &::before {
+      content: ' ';
+      position: absolute;
+      right: 0;
+      top: 30%;
+      display: inline-block;
+      width: 5px;
+      height: 5px;
+      background: rgba(236, 72, 153, 1);
+      border-radius: 50%;
+    }
+
+    &:hover {
+      color: rgba(236, 72, 153, 1);
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .btns {
+    .col-12.col-md-3.pl-0 {
+      padding-right: 0 !important;
+      padding-top: 8px !important;
+    }
+  }
+}
