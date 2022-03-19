@@ -22,11 +22,11 @@ require('ac-converter');
 ```javascript
 const acc = require('ac-converter');
 
-let str = acc.convert('علي');
+let str = acc.convert('علی');
 
 console.log(str);
 
-// خروجی: علی
+// خروجی: علي
 ```
 
 
