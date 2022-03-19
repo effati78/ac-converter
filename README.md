@@ -11,7 +11,7 @@ Install ac-converter with npm
   npm install ac-converter
 ```
 
-Or use online. ([Link](https://www.github.com/effati78))
+Or use online. ([Demo](https://effati78.github.io/ac-converter/))
     
 ## Webpack
 ```
