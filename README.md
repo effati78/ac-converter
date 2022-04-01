@@ -5,10 +5,10 @@ Convert Arabic text to Persian for Adobe Connect
 
 ## Installation
 
-Install ac-converter with npm
+Install ac-converter with npm. ([Package link](https://www.npmjs.com/package/ac-converter/))
 
 ```bash
-  npm install ac-converter
+npm install ac-converter
 ```
 
 Or use online. ([Demo](https://effati78.github.io/ac-converter/))
