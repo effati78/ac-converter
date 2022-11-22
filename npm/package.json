@@ -1,0 +1,17 @@
+{
+  "name": "ac-converter",
+  "version": "1.0.7",
+  "description": "Convert Arabic text to Persian for Adobe Connect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "adobe-connect",
+    "converter",
+    "persian",
+    "arabic"
+  ],
+  "author": "Reza Effati Moghaddam",
+  "license": "ISC"
+}
