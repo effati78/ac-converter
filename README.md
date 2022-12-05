@@ -1,6 +1,6 @@
 # AC Converter
 
-Convert Arabic text to Persian for Adobe Connect
+Convert Persian text to Arabic for Adobe Connect
 
 
 ## Installation
